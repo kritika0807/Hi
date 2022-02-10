@@ -26,6 +26,7 @@ public class Main {
      Main obj=new Main(null);
         obj.printHello();
         System.out.println(obj.add(5,4));
+        obj.display();
     }
 
     
