@@ -25,6 +25,7 @@ public class Main {
     public static void main(String[] args) {
      Main obj=new Main(null);
         obj.printHello();
+        System.out.println(obj.add(5,4));
     }
 
     
