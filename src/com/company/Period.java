@@ -23,7 +23,7 @@ public class Period {
     public static void main(String[] args) throws InterruptedException {
         Date s = new Date();
         System.out.println(s);
-        Thread.sleep(1000);
+        Thread.sleep(10000);
         Date e= new Date();
         Period p=new Period(s,e);
         p.setStartDate(new Date());
