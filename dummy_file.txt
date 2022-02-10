@@ -1,0 +1,2 @@
+these are the changes made to file dummy_txt.They are shown in green and red . Deleted is shown in red.
+Now i will add text to this file. 
