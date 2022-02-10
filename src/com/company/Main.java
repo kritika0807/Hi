@@ -27,6 +27,8 @@ public class Main {
         obj.printHello();
         System.out.println(obj.add(5,4));
         obj.display();
+        Main obj2 = new Main((Integer) 5);
+        System.out.println(obj2.a);
     }
 
     
