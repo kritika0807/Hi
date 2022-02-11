@@ -21,7 +21,7 @@ public class Period {
     }
 
     public void display() {
-        System.out.println(startDate+" "+ endDate);
+        System.out.println("HI -> "+startDate+" "+ endDate);
     }
 
     public static void main(String[] args) throws InterruptedException {
