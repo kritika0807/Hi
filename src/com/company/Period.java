@@ -16,6 +16,10 @@ public class Period {
         this.startDate = startDate;
     }
 
+    public void setEndDate(Date endDate) {
+        this.endDate = endDate;
+    }
+
     public void display() {
         System.out.println(startDate+" "+ endDate);
     }
