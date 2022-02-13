@@ -6,7 +6,7 @@ import java.util.*;
 public class Main {
     Integer a;
  public Main(Integer a){
-      this.a = Objects.requireNonNull(a,"NO NULL");
+      this.a = Objects.requireNonNull(a,"NO NULL Allowed");
 
  }
     private void display(){
