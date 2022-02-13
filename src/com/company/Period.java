@@ -24,14 +24,20 @@ public class Period {
         System.out.println(startDate+" "+ endDate);
     }
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
         Date s = new Date();
         System.out.println(s);
-        Thread.sleep(10000);
+        try {
+            Thread.sleep(10000);
+        }
+        catch (InterruptedException e ){
+            System.out.println("Caught an Exception");
+        }
         Date e= new Date();
         Period p=new Period(s,e);
         p.setStartDate(new Date());
         p.display();
+
 
 
     }
