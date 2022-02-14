@@ -25,7 +25,7 @@ public class Stack {
 
     private void ensure_cap() {
         if(elements.length==size)
-            elements= Arrays.copyOf(elements,2*size+1);
+            elements= Arrays.copyOf(elements,4*size+1);
     }
 
     public static void main(String[] args) {
