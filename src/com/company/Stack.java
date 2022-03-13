@@ -24,6 +24,7 @@ public class Stack {
     }
 
     private void ensure_cap() {
+         System.out.println("This is to check for capacity");
         if(elements.length==size)
             elements= Arrays.copyOf(elements,4*size+1);
     }
