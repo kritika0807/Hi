@@ -13,7 +13,6 @@ public class Stack {
     elements = new Integer[init_capacity];
     }
     public void push(int a){
-        ensure_cap();
         elements[size++]=a;
 
     }
@@ -23,11 +22,7 @@ public class Stack {
         return s;
     }
 
-    private void ensure_cap() {
-         System.out.println("This is to check for capacity");
-        if(elements.length==size)
-            elements= Arrays.copyOf(elements,4*size+1);
-    }
+
 
     public static void main(String[] args) {
         Stack stk = new Stack();
